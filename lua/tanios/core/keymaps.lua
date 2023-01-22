@@ -39,3 +39,6 @@ keymap.set("n", "<leader>gts", require("telescope.builtin").git_status)
 
 -- diagnostic in a float
 keymap.set("n", "<leader>D", function() vim.diagnostic.open_float() end, opts)
+
+-- oil nvim
+vim.keymap.set("n", "-", require("oil").open, { desc = "Open parent directory" })
