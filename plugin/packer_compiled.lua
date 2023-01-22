@@ -89,11 +89,6 @@ _G.packer_plugins = {
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
-  ["bluloco.nvim"] = {
-    loaded = true,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/bluloco.nvim",
-    url = "https://github.com/uloco/bluloco.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -138,11 +133,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -216,6 +206,11 @@ _G.packer_plugins = {
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["oil.nvim"] = {
+    loaded = true,
+    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/oil.nvim",
+    url = "https://github.com/stevearc/oil.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -280,11 +275,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
-  },
-  ["vim-vinegar"] = {
-    loaded = true,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/vim-vinegar",
-    url = "https://github.com/tpope/vim-vinegar"
   }
 }
 

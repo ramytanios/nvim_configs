@@ -103,8 +103,11 @@ return packer.startup(function(use)
   use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
 
   -- vinegar 
-  use({'tpope/vim-vinegar'})
+  -- use({'tpope/vim-vinegar'})
 
+  -- oil 
+  use ({'stevearc/oil.nvim'})
+  
   -- nvim netrw icons and stuff 
   use ({'prichrd/netrw.nvim'})
 
