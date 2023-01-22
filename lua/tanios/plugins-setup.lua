@@ -30,9 +30,7 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
   
   -- color schemes 
-  use 'folke/tokyonight.nvim'
   use "EdenEast/nightfox.nvim"
-  use "jacoborus/tender.vim"
 
   -- lua functions that many plugins use
 	use("nvim-lua/plenary.nvim")
@@ -46,9 +44,6 @@ return packer.startup(function(use)
 
 	-- commenting with gc
 	use("numToStr/Comment.nvim")
-
-	-- file explorer
-	use("nvim-tree/nvim-tree.lua")
 
 	-- icons
 	use("kyazdani42/nvim-web-devicons")
@@ -92,20 +87,13 @@ return packer.startup(function(use)
 		end,
 	})
 
-	-- auto closing
-	-- use("windwp/nvim-autopairs") -- auto close paranthesis etc ..
-	use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- auto close tags
-
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
   -- metals for scala 
   use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
 
-  -- vinegar 
-  -- use({'tpope/vim-vinegar'})
-
-  -- oil 
+   -- oil 
   use ({'stevearc/oil.nvim'})
   
   -- nvim netrw icons and stuff 
@@ -133,6 +121,9 @@ return packer.startup(function(use)
 
   -- telescope ui select 
   use ({"nvim-telescope/telescope-ui-select.nvim"})
+
+  -- vim float terminal 
+  use ({"voldikss/vim-floaterm"})
 
   require'netrw'.setup{}
 	if packer_bootstrap then

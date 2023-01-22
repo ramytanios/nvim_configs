@@ -179,22 +179,10 @@ _G.packer_plugins = {
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/nvim-metals",
     url = "https://github.com/scalameta/nvim-metals"
   },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-ts-autotag"] = {
-    load_after = {},
-    loaded = true,
-    needs_bufread = false,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/opt/nvim-ts-autotag",
-    url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
@@ -236,25 +224,20 @@ _G.packer_plugins = {
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tender.vim"] = {
-    loaded = true,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/tender.vim",
-    url = "https://github.com/jacoborus/tender.vim"
-  },
   ["todo-comments.nvim"] = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
     url = "https://github.com/folke/todo-comments.nvim"
   },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
-  },
   ["vim-eunuch"] = {
     loaded = true,
     path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/vim-eunuch",
     url = "https://github.com/tpope/vim-eunuch"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/Users/ramytanios/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-fugitive"] = {
     loaded = true,
@@ -279,11 +262,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Load plugins in order defined by `after`
-time([[Sequenced loading]], true)
-vim.cmd [[ packadd nvim-treesitter ]]
-vim.cmd [[ packadd nvim-ts-autotag ]]
-time([[Sequenced loading]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
