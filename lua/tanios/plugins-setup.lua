@@ -125,6 +125,9 @@ return packer.startup(function(use)
   -- vim float terminal 
   use ({"voldikss/vim-floaterm"})
 
+  -- trouble nvim for diagnostics and stuff
+  use ({"folke/trouble.nvim"})
+
   require'netrw'.setup{}
 	if packer_bootstrap then
 		require("packer").sync()
