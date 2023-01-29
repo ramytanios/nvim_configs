@@ -11,6 +11,7 @@ end
 
 telescope.setup({
   defaults = {
+    layout_strategy = "vertical",
     mappings = {
       i = {
         ["<C-k>"] = actions.move_selection_previous, 

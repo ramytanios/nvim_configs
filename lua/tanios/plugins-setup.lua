@@ -128,6 +128,8 @@ return packer.startup(function(use)
   -- trouble nvim for diagnostics and stuff
   use ({"folke/trouble.nvim"})
 
+  use ({"ggandor/leap.nvim"})
+
   require'netrw'.setup{}
 	if packer_bootstrap then
 		require("packer").sync()
